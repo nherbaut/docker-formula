@@ -139,7 +139,7 @@ docker-py requirements:
     - name: pip {{ docker.pip.version }}
     {%- else %}
     - name: pip
-    - upgrade: True
+    - upgrade: False
     {%- endif %}
 
 docker-py:
